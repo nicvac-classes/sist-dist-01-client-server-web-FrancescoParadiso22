@@ -1,14 +1,47 @@
 <!DOCTYPE html>
-<html lang="en">
-  <head>
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>Client Web</title>
-    <!-- Inserire qui il codice per caricare i css di w3.css --> 
-        
-  </head>
-  <body>
-    <!-- Inserire qui il codice per definire il form -->
-     
-  </body>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registrazione Evento</title>
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+</head>
+<body>
+
+    <div class="w3-container w3-card-4 w3-light-grey" style="max-width: 600px; margin: auto;">
+        <div class="w3-container w3-green">
+            <h2>Registrazione Evento</h2>
+        </div>
+        <form class="w3-container">
+            <p>
+                <label>Nome</label>
+                <input class="w3-input w3-border" type="text" name="nome" required>
+            </p>
+            <p>
+                <label>Cognome</label>
+                <input class="w3-input w3-border" type="text" name="cognome" required>
+            </p>
+            <p>
+                <label>Età</label>
+                <input class="w3-input w3-border" type="number" name="eta" min="0" required>
+            </p>
+            <p>
+                <label>Data di nascita</label>
+                <input class="w3-input w3-border" type="date" name="dataNascita" required>
+            </p>
+            <p>
+                <label>Password</label>
+                <input class="w3-input w3-border" type="password" name="pwd" required>
+            </p>
+            <p>
+                <input class="w3-check" type="checkbox" name="terms" required>
+                <label>Accetto i termini e le condizioni</label>
+            </p>
+            <p>
+                <button class="w3-button w3-green" type="submit">Registrati</button>
+            </p>
+        </form>
+    </div>
+
+</body>
 </html>
